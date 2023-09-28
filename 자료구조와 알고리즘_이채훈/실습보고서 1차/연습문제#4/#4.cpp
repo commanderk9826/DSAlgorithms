@@ -23,43 +23,38 @@ void HappyLotto(int num) {
 	const int NUM_MAX = 45;
 	//로또 번호 범위 1~45
 
-	random_device rd;
-	//난수 생성기 초기화
-	mt19937 gen((rd()));
-	//메르센 트위스터 엔진 초기화
-	uniform_int_distribution <int> distribution(NUM_MIN, NUM_MAX);
-	//로또번호 1~45 난수 범위 설정
+	random_device rd;//난수 생성기 초기화
+	mt19937 gen((rd()));//메르센 트위스터 엔진 초기화
+	uniform_int_distribution <int> distribution(NUM_MIN, NUM_MAX);//로또번호 1~45 난수 범위 설정
 
 	for (int i = 0; i < num; i++) {
 		int** lotto = new int* [6];
 		for (int j = 0; j < 6; j++) {
 			lotto[j] = new int;
-		}
-		//6개의 int형 포인터 원소를 갖는 2차원 동적 배열 생성
+		}//6개의 int형 포인터 원소를 갖는 2차원 동적 배열 생성
 		
 		for (int j = 0; j < 6; j++) {
-			bool duplicate;
+			bool duplicate;//중복 로또 번호를 검사를 위한 bool형 변수
 			do {
 				duplicate = false;
-				*lotto[j] = distribution(gen);
+				*lotto[j] = distribution(gen);//로또 번호 생성
 
 				for (int k = 0; k < j; k++) {
 					if (*lotto[k] == *lotto[j]) {
 						duplicate = true;
 						break;
-					}
+					}//중복된 로또 번호 검사
 				}
 
 			} while (duplicate);
 		}
-		/*중복된 번호를 피하면서 로또 번호 생성.
-		일단 로또 번호를 생성 시키기 위해 do-while문 사용함.*/
 
 		for (int j = 0; j < 6; j++) {
 			cout.width(3);
 			cout << *lotto[j] << " ";
-		} cout << endl;
-		//생성된 로또 번호 출력, 간격3 맞추기
+		} //생성된 로또 번호 출력, 간격3 맞추기
+		cout << endl;
+		
 
 		for (int j = 0; j < 6; j++) {
 			delete lotto[j];

@@ -3,14 +3,10 @@
 using namespace std;
 
 void stuGrade(const double* pArr, int num, double& rSum, double& rAve, double& rMax);
-/*
-세 개의 참조 매개변수(rSum, rAve, rMax)를 통해 결과를 반환함.
-pArr이라는 const double* 타입의 포인터, num이라는 int 매개변수를 입력으로 받음.
-*/
 
 int main(void) {
 	int stuSize;
-	double* pArr = nullptr;//동적배열의 포인터 초기화
+	double* pArr = nullptr;
 	double sum, ave, max;
 
 	cout << "20215229 이채훈" << endl;
@@ -22,10 +18,12 @@ int main(void) {
 
 	for (int i = 0; i < stuSize; i++){
 		cin >> *(pArr + i);
-	}
+	}//입력 받은 학생 수만큼, 성적 입력 받음
 		
 	stuGrade(pArr, stuSize, sum, ave, max);
-	cout << "\n ##### 성적 결과 출력 ##### \n" << endl;
+	cout << endl;
+	cout << " ##### 성적 결과 출력 ##### " << endl;
+	cout << endl;
 	cout << "학생수: " << stuSize << endl;
 	cout << "총  점: " << sum << endl;
 	cout << "평  균: " << ave << endl;

@@ -14,7 +14,8 @@ int main(void) {
 }
 
 int my_stoi(const string& rStr) {
-    const char* ptr = rStr.c_str();//문자열의 첫번째 문자에 대한 포인터
+    const char* ptr = rStr.c_str();
+    //string를 문자열로 변환하는 멤버함수 c_str()
   
     int result = 0;
     int sign = 1;
@@ -22,10 +23,11 @@ int my_stoi(const string& rStr) {
     if (*ptr == '-') {
         sign = -1;
         ++ptr;
-    }
+    }//첫번째 문자의 음수 판단
+
     else if (*ptr == '+') {
         ++ptr;
-    }
+    }//첫번째 문자의 양수 판단
 
     while (*ptr != NULL) {
         if (*ptr >= '0' && *ptr <= '9') {
@@ -35,8 +37,10 @@ int my_stoi(const string& rStr) {
             break;
         }
         ++ptr; 
-    }
+    }//0~9이외의 문자가 존재할 경우, 숫자 변환 작업 중단
+
     return result * sign;
+    //숫자*부호(sign) 값을 반환
 }
 
 
