@@ -66,8 +66,13 @@ int main(void) {
             if (amount > AC.getBalance())
             {
                 cout << "현재 잔액: " << AC.getBalance() << endl;
+                /*
                 throw 'e';
                 //char throw
+                */
+                
+                throw string("Underflow!");
+                
                 return 0;
             }
             else
@@ -91,13 +96,23 @@ int main(void) {
     }
     //계좌번호와 비밀번호가 다를 경우의 예외처리
 
-    catch (char exception)
+    /*catch (char exception)
+    {
+        cout << "희망 출금액: (" << amount << ")이 너무 많네요." << endl;
+        return 0;
+    }*/
+    //희망출금액이 잔액보다 적을 경우의 예외처리
+    
+    catch (string error)
     {
         cout << "희망 출금액: (" << amount << ")이 너무 많네요." << endl;
         return 0;
     }
-    //희망출금액이 잔액보다 적을 경우의 예외처리
+    
 }
+
+
+
 
 
  
