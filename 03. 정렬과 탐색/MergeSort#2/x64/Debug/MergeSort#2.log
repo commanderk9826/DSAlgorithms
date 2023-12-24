@@ -1,0 +1,5 @@
+﻿  MergeSort#2.cpp
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\MergeSort#2\MergeSort#2.cpp(65,11): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\MergeSort#2\MergeSort#2.cpp(66,11): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\MergeSort#2\MergeSort#2.cpp(84,16): warning C4244: '=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MergeSort#2.vcxproj -> C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\MergeSort#2\x64\Debug\MergeSort#2.exe

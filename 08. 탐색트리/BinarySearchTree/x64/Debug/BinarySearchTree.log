@@ -1,0 +1,2 @@
+﻿  BinarySearchTree.cpp
+C:\Users\user\OneDrive\자구알\07. 트리\BinarySearchTree\BinarySearchTree.h(45): error C4716: 'BinarySearchTree::search': 값을 반환해야 합니다.

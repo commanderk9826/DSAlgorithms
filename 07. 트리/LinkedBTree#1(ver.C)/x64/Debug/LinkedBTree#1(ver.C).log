@@ -1,0 +1,15 @@
+﻿  LinkedBTree.c
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(30,34): warning C4312: '형식 캐스트': 'element'에서 더 큰 'DNode *'(으)로의 변환입니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(31,34): warning C4312: '형식 캐스트': 'element'에서 더 큰 'DNode *'(으)로의 변환입니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(33,22): warning C4244: '함수': '__int64'에서 'element'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(37,23): warning C4312: '형식 캐스트': 'element'에서 더 큰 'DNode *'(으)로의 변환입니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(76,24): warning C4244: '함수': '__int64'에서 'element'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(78,26): warning C4312: '형식 캐스트': 'element'에서 더 큰 'DNode *'(으)로의 변환입니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(80,37): warning C4047: '함수': 'element'의 간접 참조 수준이 '__DNode *'과(와) 다릅니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(80,37): warning C4024: 'enQueue': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(81,37): warning C4047: '함수': 'element'의 간접 참조 수준이 '__DNode *'과(와) 다릅니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\LinkedBTree.c(81,37): warning C4024: 'enQueue': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  LinkedQueue.c
+  LinkedStack.c
+  코드를 생성하고 있습니다...
+  LinkedBTree#1(ver.C).vcxproj -> C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\07. 트리\LinkedBTree#1(ver.C)\x64\Debug\LinkedBTree#1(ver.C).exe

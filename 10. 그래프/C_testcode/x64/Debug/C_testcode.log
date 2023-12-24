@@ -1,0 +1,3 @@
+﻿  #1.c
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\10. 그래프\C_testcode\#1.c(14,18): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  C_testcode.vcxproj -> C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\10. 그래프\C_testcode\x64\Debug\C_testcode.exe

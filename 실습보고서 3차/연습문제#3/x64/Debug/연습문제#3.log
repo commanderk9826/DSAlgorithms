@@ -1,0 +1,5 @@
+﻿  #3.cpp
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\실습보고서 3차\연습문제#3\#3.cpp(70): warning C4715: 'CircularQueue<int>::front': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\실습보고서 3차\연습문제#3\#3.cpp(61): warning C4715: 'CircularQueue<int>::pop': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\실습보고서 3차\연습문제#3\#3.cpp(79): warning C4715: 'CircularQueue<int>::back': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  연습문제#3.vcxproj -> C:\Users\user\OneDrive - KookminUNIV\바탕 화면\자구알\실습보고서 3차\연습문제#3\x64\Debug\연습문제#3.exe

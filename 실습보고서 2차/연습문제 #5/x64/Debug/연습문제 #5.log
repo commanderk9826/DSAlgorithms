@@ -1,0 +1,7 @@
+﻿  #5.cpp
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\#5.cpp(59,22): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\#5.cpp(60,23): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\#5.cpp(70,11): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\#5.cpp(71,11): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\#5.cpp(92,16): warning C4244: '=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  연습문제 #5.vcxproj -> C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #5\x64\Debug\연습문제 #5.exe

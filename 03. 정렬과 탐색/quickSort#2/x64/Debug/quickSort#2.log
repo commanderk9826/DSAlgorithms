@@ -1,0 +1,5 @@
+﻿  quickSort#2.cpp
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\quickSort#2\quickSort#2.cpp(64,21): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\quickSort#2\quickSort#2.cpp(73,8): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\quickSort#2\quickSort#2.cpp(75,13): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  quickSort#2.vcxproj -> C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\03. 정렬과 탐색\quickSort#2\x64\Debug\quickSort#2.exe

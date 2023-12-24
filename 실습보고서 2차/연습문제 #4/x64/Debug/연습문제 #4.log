@@ -1,0 +1,5 @@
+﻿  #4.cpp
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #4\#4.cpp(57,29): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #4\#4.cpp(66,8): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #4\#4.cpp(68,13): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  연습문제 #4.vcxproj -> C:\Users\user\Desktop\DSAlgorithms\자료구조와 알고리즘_이채훈\실습보고서 2차\연습문제 #4\x64\Debug\연습문제 #4.exe

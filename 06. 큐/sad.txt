@@ -1,0 +1,132 @@
+#include <iostream>
+
+#define queueMAXSIZE 4
+
+using namespace std;
+
+template <typename E>
+class CircularQueue
+{
+    E queue[queueMAXSIZE] = { 0 };
+    int frontIndex, rearIndex, count;
+public:
+    CircularQueue();
+    ~CircularQueue();
+    void push(const E& e);
+    void pop();
+    E front() const;
+    E back() const;
+    int size() const;
+    bool empty() const;
+    bool full() const;
+    void printQueue() const;
+};
+
+template <typename E>
+CircularQueue<E>::CircularQueue() :
+    frontIndex(-1), rearIndex(-1), count(0) {}
+
+template <typename E>
+CircularQueue<E>::~CircularQueue() {}
+
+template <typename E>
+void CircularQueue<E>::push(const E& e)
+{
+    if (full())
+    {
+        cout << "큐가 포화 상태입니다" << endl;
+        //return;
+    }
+
+    rearIndex = (rearIndex + 1) % queueMAXSIZE;
+    queue[rearIndex] = e;
+    count++;
+}
+
+template <typename E>
+void CircularQueue<E>::pop()
+{
+    if (empty())
+    {
+        cout << "큐가 공백 상태입니다" << endl;
+        return;
+    }
+   
+    frontIndex = (frontIndex + 1) % queueMAXSIZE;
+    queue[frontIndex] = 0;
+    count--;
+}
+
+template <typename E>
+E CircularQueue<E>::front() const
+{
+    return queue[frontIndex];
+}
+
+template <typename E>
+E CircularQueue<E>::back() const
+{
+    return queue[rearIndex];
+}
+
+template <typename E>
+int CircularQueue<E>::size() const
+{
+    return count;
+}
+
+template <typename E>
+bool CircularQueue<E>::empty() const
+{
+    return (count == 0);
+}
+
+//큐의 포화 상태 확인
+template <typename E>
+bool CircularQueue<E>::full() const
+{
+    return (rearIndex + 1) % queueMAXSIZE == frontIndex;
+}
+
+template <typename E>
+void CircularQueue<E>::printQueue() const
+{
+    cout << "Queue [";
+
+    for (int i = 0; i < queueMAXSIZE; i++) cout << queue[i] << ' ';
+
+    cout << "]\n";
+}
+
+int main()
+{
+    int num, choice;
+    CircularQueue<int> CQ;
+
+    while (1)
+    {
+        cout << "메뉴 선택: "; cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            cout << "삽입할 데이터 입력: "; cin >> num;
+            CQ.push(num);
+            break;
+        case 2:
+//            cout << "삭제된 데이터: "//<< CQ.front() << endl;
+            CQ.pop();
+            break;
+        case 3:
+            cout << "원형 큐 전체 원소 출력: "; CQ.printQueue();
+            break;
+        case 4:
+            cout << "over ";
+            return 0;
+        default:
+            cout << "잘못 입력하셨습니다." << endl;
+        }
+    }
+
+    return 0;
+}
